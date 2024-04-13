@@ -1,0 +1,38 @@
+
+Normal HTML elements are generic elements that are used to structure and define the content of a web page. 
+They do not convey any specific meaning or context about their content to search engines or assistive 
+technologies. Examples of normal HTML elements include <div>, <span>, <p>, <b>, <i>, etc.
+
+Semantic HTML elements, on the other hand, carry meaning and convey the purpose or role of the content 
+they enclose. They provide additional information about the structure of the document to browsers, 
+search engines, and assistive technologies, making the content more accessible and SEO-friendly. 
+Examples of semantic HTML elements include <header>, <nav>, <section>, <article>, <footer>, <aside>, 
+<main>, <figure>, <figcaption>, <time>, <address>, etc.
+
+The disparity between closing tags and self-closing tags in HTML lies in how they are used to define 
+elements:
+
+Closing Tags: Most HTML elements require both opening and closing tags to encapsulate content. 
+For example, <div> and <p> elements are typically opened with <div> or <p> and closed with </div> 
+or </p> respectively. Closing tags are used to mark the end of an element and delineate its content.
+
+Self-Closing Tags: Some HTML elements do not have any content within them and are self-contained. 
+These elements can be defined using a single tag, which includes a slash before the closing angle bracket. 
+For example, <img> and <br> are self-closing tags. They don't require a separate closing tag because they 
+don't enclose any content. Instead, they represent standalone items like images or line breaks.
+
+Inline elements and block elements are distinguished by how they behave in relation to other elements and 
+how they are displayed:
+
+Inline Elements: Inline elements do not start on a new line and only take up as much width as necessary. 
+They flow within the content and do not force a line break. Examples of inline elements include <span>, 
+<a>, <strong>, <em>, <img>, <input>, <br>, etc.
+
+Block Elements: Block elements, on the other hand, start on a new line and occupy the full width available 
+to them, by default. They create a visual "block" of content on the page and often represent structural 
+elements like paragraphs, headings, lists, and divs. Examples of block elements include <div>, <p>, <h1> 
+to <h6>, <ul>, <ol>, <li>, <table>, <form>, etc.
+
+
+
+
